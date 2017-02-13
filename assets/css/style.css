@@ -1,0 +1,75 @@
+.header {
+	background-color:#4aaaa5;
+	color:#F5F5F5;
+	font-family:'Georgia', Times, 'Times New Roman', serif;
+	position:relative;
+	left:10%;
+	top:3%;
+	height:65px;
+	width:250px;
+	padding:40px 10px 10px 40px;
+	clear:left;
+}
+
+.clearfix {
+	float:left;
+	overflow:auto;
+	clear:left;
+	margin:0px 600px 0px 150px;
+	border: 1px #D3D3D3 solid;
+	padding:20px 20px 20px 20px;
+	background-color:white;
+}
+.site-footer {
+	position:absolute;
+	right:0;
+	bottom:0;
+	left:0;
+	padding-top:15px;
+	background-color:#666666;
+	text-align:center;
+	height:5%;
+	
+}
+
+hr {
+	position:absolute;
+	top:140px;
+	width:100%;
+}
+
+ol {
+	float:right;
+	width:5%;
+	padding:30px;
+	background-color:transparent;
+	border-right:1px solid #D3D3D3;
+	list-style-type:none;
+	font-family:Arial;
+	color:#D3D3D3;
+	position:fixed;
+	right:300px;
+	top:0px;
+	display:inline;
+
+}
+
+.connect {
+	float:right;
+	width:270px;
+	height:100px;
+	border:1px solid #D3D3D3;
+	padding:10px 10px 10px 10px;
+	position:absolute;
+	top:163px;
+	right:100px;
+	bottom:100px;
+	left:920px;
+	background-color:white;
+	text-align:center;
+}
+
+
+.background {
+	background:url("assets/images/seigaiha.png")pink;
+}
