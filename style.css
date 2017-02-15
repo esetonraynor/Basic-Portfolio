@@ -1,0 +1,18 @@
+h1 {
+	background-color:#4aaaa5;
+	font-color:white;
+	height:5%;
+	width:10%;
+	font-family:'Georgia', Times, 'Times New Roman', serif;
+	position:relative;
+	left:20%;
+	top:5%;
+}
+
+.site-footer {
+	height:100px;
+}
+
+.tab {
+	float:right;
+}
