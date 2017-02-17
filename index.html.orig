@@ -1,0 +1,57 @@
+<!--homepage-->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<title>All About Seton</title>
+	<link rel="stylesheet" type="text/css" 
+	href="Basic-Portfolio/assets/css/style.css">
+</head>
+
+<body>
+<container class="main-content">
+	<header>
+		<h1 id="header">Seton Raynor</h1>
+	<ol>
+		<li> <a href="index.html">About</li>
+		<li> <a href="portfolio.html">Portfolio</li>
+		<li> <a href="contact.html">Contact</li>
+	</ol>
+	</header>
+</container>
+
+
+
+<container class="main-content">
+<div class="clearfix">
+<!--main-bio section needs to be in a box-->
+		<h1>About Me</h1>
+		<img id="picture" src="https://placehold.it/200x200" alt="Seton">
+<!--picture should float left within the box-->
+		<p>Seton is a full-stack developer who lives in Chapel Hill with her husband and her two cats. She attended University of North Carolina at Chapel Hill, earning a major in English Language and Literature. She has spent the last four years teaching high school in Sanford, N.C.</p>
+		<br>
+		<p>Seton's best skills include coding, writing, editing, and other communication. She is an avid reader and moviegoer.</p>
+</div>
+</container>
+
+<div class="connect">
+	<h2>Connect with Me</h2>
+	<img class="icons" src="Basic-Portfolio/assets/images/1487049656_linkedin.png">
+	<img class="icons" src="Basic-Portfolio/assets/images/1487049768_29.png">
+	<img class="icons" src="Basic-Portfolio/assets/images/1487049825_overflow.png">
+</div>
+
+<footer class="site-footer">Copyright 2017 Seton Raynor</footer>
+
+</body>
+
+
+
+
+
+
+
+
+
+
