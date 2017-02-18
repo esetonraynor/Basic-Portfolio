@@ -167,17 +167,13 @@ a {
 #contactHeader {
 	color:#4aaaa5;
 	font-family:'Georgia', Times, 'Times New Roman';
-	border-bottom:3px solid #dddddd;
 	padding-left:10px;
-	padding-bottom:10px;
 }
 
 #aboutMe {
 	color:#4aaaa5;
 	font-family:'Georgia', Times, 'Times New Roman';
-	border-bottom:3px solid #dddddd;
-	padding-left:20px;
-	padding-bottom:20px;
+	padding-left:30px;
 }
 
 #picture {
@@ -190,9 +186,7 @@ a {
 #portfolioHeading {
 	color:#4aaaa5;
 	font-family:'Georgia', Times, 'Times New Roman';
-	border-bottom:3px solid #dddddd;
-	padding-left:20px;
-	padding-bottom:20px;
+	padding-left:30px;
 }
 
 .bio {
@@ -232,6 +226,8 @@ textarea {
 	padding:20px 20px 20px 20px;
 	height:30px;
 	width:100px;
+	cursor:pointer;
+	cursor:hand;
 }
 
 .connectBox1 {
@@ -273,11 +269,22 @@ textarea {
 #connectWithMe {
 	color:#4aaaa5;
 	text-align:center;
-	padding-bottom:10px;
-	border-bottom:3px solid #dddddd;
-	border-padding-left:20px;
-	border-padding-right:20px;
+	padding-bottom:0px;
 	font-family:'Georgia', Times, 'Times New Roman';
+}
+
+hr {
+	border:0 none;
+	background-color:#dddddd;
+	height:3px;
+	width:80%;
+}
+
+#line1 {
+	border:0 none;
+	background-color:#dddddd;
+	height:3px;
+	width:90%;
 }
 
 .icons {
