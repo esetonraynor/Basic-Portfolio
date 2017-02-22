@@ -7,16 +7,99 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" 
 	href="assets/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 
-<div id="header">
+<header id="masthead">
+	<div class="container">
+		<a href="index.html" id="logo">Seton Raynor</a>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+	</div>
+	</header>
+
+<div id="main-container" class="container">
+	<section class="main-container">
+		<h1>Contact</h1>
+		
+		<form id="contact-form">
+			<ul>
+				<li>
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" placeholder="John Doe" required="required">
+				</li>
+				<li>
+					<label for="email">Email</label>
+					<input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+				</li>
+				<li>
+					<label for="message">Message</label>
+					<textarea type="text" name="message" id="message" placeholder="Your message here." required="required"></textarea>
+				</li>
+			</ul>
+		<button id="submit" href="#">Submit</button>
+		</form>
+
+	</section>
+
+	<section class="sidebar">
+		<div id="connect">
+			<h2>Connect with Me</h2>
+			
+			<a href="http://github.com/esetonraynor" target="_blank"><img class="icons" src="assets/images/1487049768_29.png" alt=""></a>
+			<a href="http://www.linkedin.com/in/seton-raynor" target="_blank"><img class="icons" src="assets/images/1487049656_linkedin.png" alt=""></a>
+			<a href="http://stackoverflow.com/users/7387900/seton-raynor" target="_blank"><img class="icons" src="assets/images/1487049825_overflow.png" alt=""></a>
+		</div>
+	</section>
+
+</div><!--End of main-container!-->
+
+<footer>
+	<div class="container">&copy;Copyright 2017 Seton Raynor</div>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div id="header">
 	<h1 id="myName">Seton Raynor</h1>
 	<ul>
-		<li><div class="nav"><a href="portfolio.html">&nbsp;&nbsp;Portfolio</a></div></li>
-		<li><div class="nav"><a href="contact.html">&nbsp;&nbsp;Contact&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</a></div></li>
-		<li><div class="nav"><a href="index.html">About&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</a></div></li>
+		<li><div class="nav port"><a href="portfolio.html">&nbsp;&nbsp;Portfolio</a></div></li>
+		<li><div class="nav cont"><a href="contact.html">&nbsp;&nbsp;Contact&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</a></div></li>
+		<li><div class="nav about"><a href="index.html">About&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</a></div></li>
 	</ul>
 </div>
 
